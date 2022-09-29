@@ -1,3 +1,5 @@
-# VS Starter Kit
+**Notes**
 
-Contains basic VS git.ignore and git.attributes
+*CQRS - Command and Query Responsibility Segregation*
+
+![Playlist Management screenshot](PLayList Management screen shot.PNG)
