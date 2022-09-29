@@ -2,4 +2,4 @@
 
 *CQRS - Command and Query Responsibility Segregation*
 
-![Playlist Management screenshot](PLayList Management screen shot.PNG)
+![Playlist Management screenshot](PLayList&nbspManagement&nbspscreen&nbspshot.PNG)
