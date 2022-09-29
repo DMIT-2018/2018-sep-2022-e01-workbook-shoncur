@@ -1,10 +1,11 @@
-**Notes**
+# Notes
 
-*CQRS - Command and Query Responsibility Segregation*
+## CQRS - Command and Query Responsibility Segregation
 
 ![Playlist Management screenshot](PLayList&nbspManagement&nbspscreen&nbspshot.PNG)
 
-*Query*
+### Query
+
 This is to pull data out of the database, onto the form:
 ```c#
 public class SongItem {
