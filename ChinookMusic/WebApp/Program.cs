@@ -3,6 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using WebApp.Data;
 
+#region Additional Namespaces
+using ChinookSystem;
+#endregion
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,8 +18,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 var connectionStringChinook = builder.Configuration.GetConnectionString("ChinookDB");
 
 // given for the db connection to default connection string
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
 
 // code the dbconnection to the application DB context for Chinook
 // the implementation of the connect AND registration of the ChinookSystem services will be done in the ChinookSystem class library

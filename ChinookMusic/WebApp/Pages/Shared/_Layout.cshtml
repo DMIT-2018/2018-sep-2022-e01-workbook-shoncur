@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/holiday.css@0.9.8" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApp.styles.css" asp-append-version="true" />
+
+    @RenderSection("CustomCSS", required: false)
 </head>
 <body>
     <header>
@@ -35,6 +37,8 @@
                     <span>Samples</span>
                     <ul>
                         <li><a asp-area="" asp-page="/SamplePages/Index">Default Sample Pages Home</a></li>
+                        <li><a asp-area="" asp-page="/SamplePages/Controls">Controls</a></li>
+                        <li><a asp-area="" asp-page="/SamplePages/PlaylistManagement">Playlist Management</a></li>
                     </ul>
                 </li>
                 <li>
