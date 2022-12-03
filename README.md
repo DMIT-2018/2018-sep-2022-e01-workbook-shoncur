@@ -77,3 +77,10 @@ TRX Method:
 PurchaseOrder_Update(employeeid, vendorid, subtotal, gst, poid, List<C>)
 PurchaseOrder_Place(employeeid, vendorid, subtotal, gst, poid, List<C>)
 PurchaseOrder_Delete(employeeid, poid, vendorid)
+
+
+## Additional notes about Web Pages:
+
+If using Holiday.css, go into the css file in the root, theres a number that indicates how much of the page you want for the form (default 49%), it's quite thin so expand if needed
+
+Can use List to List for displaying the info on the page. (List1 = PO, List2 = Items)
